@@ -1,0 +1,14 @@
+# Secrets
+.env
+dags/.env
+
+# Airflow-generated files
+config/
+logs/
+__pycache__/
+*.pyc
+
+# Pipeline output files
+dags/data/raw_sales.csv
+dags/data/report.txt
+dags/data/orders.db
